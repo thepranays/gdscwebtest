@@ -1,0 +1,214 @@
+
+
+*{
+    /*default properties*/
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: orangered;
+
+}
+
+
+.nav-links{
+    display:flex;
+
+
+    text-align: right;
+    width: 30%;
+}
+
+.nav-links li{
+    list-style: none;
+    text-align: right;
+
+}
+
+.heading{
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Supermercado One', cursive;
+    font-size: 40px;
+}
+
+
+.nav-links a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Supermercado One', cursive;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+
+
+}
+
+.title{
+    font-family: 'Supermercado One', cursive;
+}
+
+
+
+.nav-links li a:hover:not(.active){
+    background-color:#b84624;
+    
+
+}
+
+.nav-links li a.active{
+    text-decoration: underline;
+
+}
+
+
+.home-text{
+    visibility: visible;
+}
+
+nav{
+    position: fixed;
+  
+    width:2000px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+h4{
+    font-family: 'Oswald', sans-serif;
+}
+
+.home-text h1{
+    text-align: left;
+    padding-top: 300px;
+    padding-left: 300px;
+}
+
+
+.home-text h3{
+    text-align: left;
+    padding-left: 300px;
+}
+
+
+.button-nav{
+    text-align: left;
+    justify-content: space-around;
+    padding-left: 300px;
+    visibility: visible;
+   
+
+}
+
+.button-nav button{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-nav button:hover {opacity: 1}
+
+
+/* hobby page */
+.hobby-photo{
+    padding-top: 100px;
+    text-align: center;
+
+    width: 300px;
+    height: 300px;
+   
+    
+  
+}
+/* skill page */
+
+.skill-photo{
+    padding-top: 100px;
+    text-align: center;
+
+    width: 400px;
+    height: 300px;
+   
+    
+  
+}
+
+.skill-list{
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.skill-text{
+    position:fixed;
+    padding-top: 200px;
+    padding-left: 200px;
+    text-align: left;
+    color: black;
+}
+
+
+img{
+  
+    border-radius: 999em;
+    
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+  }
+
+.front-photo{
+    border: 5px solid #555;
+    border-radius: 0em;
+}
+
+.home-photo{
+    width: 400px;
+
+    height: 400px;
+    float: right;
+    padding-top: 200px;
+    padding-right: 100px;
+
+}
+
+
+
+body{
+    background-color: darkorange;
+}
+
+
+
